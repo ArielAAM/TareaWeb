@@ -1,0 +1,20 @@
+temps:
+-10-0: #dcf0ff (temp 1)
+0-10: #ffff99 (temp 2)
+10-20: #ff9900 (temp 3)
+20-30: #ff6400 (temp 4)
+30+: #ff1400 (temp 5)
+
+precips:
+0-50: #b0b0ff (precip 1)
+50-80: #8282ff (precip 2)
+80-110: #6666ff (precip 3)
+110+: #4646ff (precip 4)
+
+dias de lluvia:
+
+0-10: #a0c8f0 (dia 1)
+10+: #508cff ( dia 2)
+
+horas de luz: #b3a973 (horasluz)
+
