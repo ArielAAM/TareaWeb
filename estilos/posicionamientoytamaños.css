@@ -1,0 +1,28 @@
+nav{
+float: left;
+position: fixed; top: 100px; left: 20px;
+
+}
+aside{
+    float: right;
+     top: 110px; right: 20px;
+    size-adjust: table;
+}
+#datos, td, #tablaclima, #tablaorientacion, #tablaleyenda, #tablalcaldes{
+    
+    border-style: solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+#tablaleyenda{
+    margin-top: 10px;
+    border-bottom: none;
+    border-right: none;
+}
+#inicio{
+    margin-left: 24%;
+}
+#tablaorientacion{
+    position: relative;
+    left: 30%;
+}
