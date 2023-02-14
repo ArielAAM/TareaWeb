@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <head>
     <title>Pagina Gijon</title>
+    <link rel="stylesheet" type="text/css" href="../estilos/colores.css">
+    <link rel="stylesheet" type="text/css" href="../estilos/posicionamientoytamaños.css">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="../estilos/fuentes.css">
 </head>
 <body>
     <header>
@@ -89,7 +94,7 @@
     </nav>
 
     <aside>
-        <table>
+        <table id="datos">
             <tr>
                 <th colspan="2">Gijon</th>
             </tr>
@@ -97,8 +102,8 @@
                 <td colspan="2"> Concejo y ciudad de España</td>
             </tr>
             <tr>
-                <td><img src="../imagenes/banderaGijon.png" alt="bandera de Gijon"><br>Bandera</td>
-                <td><img src="../imagenes/escudoGijon.png" alt="escudo de gijon"><br>Escudo</td>
+                <td><img src="../imagenes/banderaGijon.png" alt="bandera de Gijon" id="bandera"><br>Bandera</td>
+                <td><img src="../imagenes/escudoGijon.png" alt="escudo de gijon" id="escudo"><br>Escudo</td>
             </tr>
             <tr>
                 <td>
@@ -246,7 +251,7 @@
                     Según esta última norma, los cambios de denominación de los municipios españoles solo tendrán carácter oficial cuando se publiquen en el <strong>Boletín Oficial del Estado</strong>. 
                     Dado que esto aún no ha sucedido para Gijón, a día de hoy el nombre castellano es el único oficial para el concejo.
                 </p>
-                <img src="../imagenes/academia de la lengua asturiana.jfif" alt="academia de la lengua asturiana" title="Cartel de la Academia de la Llingua Asturiana">
+                <img src="../imagenes/academia de la lengua asturiana.jfif" alt="academia de la lengua asturiana" title="Cartel de la Academia de la Llingua Asturiana" id="academia">
             </section>
         </section>
         <section id="simbolos">
@@ -257,7 +262,7 @@
                 La leyenda vincula a <strong>Don Pelayo</strong> con <em>Munuza</em>, quien fuera gobernador musulmán de Gijón y con quien entró en lucha ofendido por el matrimonio no consentido entre el gobernador y la hermana de este.
                 Preside el conjunto la <strong>corona real española</strong>.
             </p>
-            <img src="../imagenes/rey pelayo.jfif" alt="Cuadro del rey Pelayo representado por una espada y la cruz de la victoria prolongada con un baculo" title="Cuadro del rey pelayo">
+            <img src="../imagenes/rey pelayo.jfif" alt="Cuadro del rey Pelayo representado por una espada y la cruz de la victoria prolongada con un baculo" title="Cuadro del rey pelayo" id="pelayo">
             <p>
                 La bandera de Gijón es rectangular, de un largo igual a tres medios su ancho, blanca, tiene un ribete rojo en sus cuatro lados de un ancho equivalente a un sexto de su largo y lleva el escudo municipal en el centro en versión polícroma. 
                 Tiene su origen en la matrícula asignada a la provincia marítima de Gijón por el Gobierno de España ―<strong>Real Decreto de 30 de julio de 1845</strong>―. 
@@ -277,7 +282,7 @@
                 El término municipal de Gijón limita con los siguientes concejos: <em>Carreño</em> al noroeste, <em>Corvera</em> al oeste, <em>Llanera</em> al suroeste, <em>Siero</em> al sur y <em>Villaviciosa</em> al este. 
                 Con Sariego sus límites llegan a unirse en un pequeño punto correspondiente a la <strong>Peña de los Cuatro Jueces</strong>, así llamada por constituir la confluencia de los concejos de Gijón, Villaviciosa, Sariego y Siero. 
             </p>
-            <table class="orientacion_geografica">
+            <table class="orientacion_geografica" id="tablaorientacion">
                 <tr>
                     <td>Noroeste: Carreño</td>
                     <td>Norte: Mar Cantabrico</td>
@@ -285,7 +290,7 @@
                 </tr>
                 <tr>
                     <td>Oeste: Corvera de Asturias</td>
-                    <td><img src="../imagenes/brujula.png" alt="imagen de una brujula"></td>
+                    <td><img src="../imagenes/brujula.png" alt="imagen de una brujula" id="brujula"></td>
                     <td>Este: Villasviciosa</td>
                 </tr>
                 <tr>
@@ -314,7 +319,7 @@
                     Según los datos ofrecidos por la <a href="https://es.wikipedia.org/wiki/Agencia_Estatal_de_Meteorología">Agencia Estatal de Meteorología</a> para la estación meteorológica de Gijón (período 1971-2000), la media del mes más frío (enero) fue de <strong>8,9 °C</strong>, la media del mes más cálido (agosto) fue de <strong>19,7 °C</strong> y la temperatura media anual es de <strong>13,8 °C</strong> (media anual de máximas: <strong>17,6 °C</strong>; media anual de mínimas: <strong>9 °C</strong>). 
                     La nieve cubre ocasionalmente en el invierno los montes del concejo que rodean la ciudad y llega de forma esporádica al centro de la ciudad, con una media de un día de nieve anual.
                 </p>
-                <table>
+                <table id="tablaclima">
                     <tr>
                         <th colspan="14">Parametros climaticos promedio de gijon</th>
                     </tr>
@@ -463,7 +468,7 @@
                         <td class="horasluz">1721</td>
                     </tr>
                 </table>
-                <table>
+                <table id="tablaleyenda">
                     <tr>
                         <td>leyenda temperatura</td>
                         <td>leyenda precipitaciones</td>
@@ -512,7 +517,7 @@
                     Este conjunto dolménico está datado en el <strong>5000 a. C</strong>. 
                     Estos monumentos megalíticos indicarían que en el actual concejo gijonés existía una importante población fija, que tenía como objetivo la demarcación del territorio que cada uno consideraba propio.
                 </p>
-                <img src="../imagenes/dolmen.jfif" alt="foto de un dolmen" title="monumento dolmenico">
+                <img src="../imagenes/dolmen.jfif" alt="foto de un dolmen" title="monumento dolmenico" id="dolmen">
             </section>
             <section id="antigua">
                 <h1>Edad antigua</h1>
@@ -521,14 +526,14 @@
                     poblado por <strong>astures</strong> de la gens de los <strong>cilúrnigos</strong> y posteriormente romanizado al tratarse de un perfecto candidato para acoger temporalmente efectivos militares tras la conquista. 
                     En cambio, algunos autores opinan que debió existir algún tipo de población de carácter autóctono en el lugar que ocupa actualmente la ciudad, aunque no existen datos fidedignos que apoyen estas suposiciones. 
                 </p>
-                <img src="../imagenes/castro noega.jfif" alt="foto que muestra el como luce el castro de noega actualmente" title="como luce actualmente el castro de noega">
+                <img src="../imagenes/castro noega.jfif" alt="foto que muestra el como luce el castro de noega actualmente" title="como luce actualmente el castro de noega" id="castro">
                 <p>
                     El <a href="castro_de_noega.html">castro de Noega</a> fue progresivamente abandonado como consecuencia de la fundación en el siglo I d. C. de un nuevo asentamiento romano a los pies del <strong>Cerro de Santa Catalina</strong>, en el actual barrio de Cimadevilla. 
                     Este se convirtió en un importante puerto estratégico en la ruta marítima del Cantábrico y un centro regional o <i>caput ciutatis</i> que alcanzó su esplendor en el <em>Bajo Imperio</em>. 
                     Las investigaciones arqueológicas realizadas en el casco urbano a partir de la década de 1980 han descubierto y documentado los restos de termas (siglo I a II d. C.), murallas (siglo III a IV), viviendas, aljibes y una fábrica de salazones, entre otros hallazgos. 
                     Entre los vestigios de ocupación romana encontrados en el concejo destaca una gran villa del siglo iv en <em>Veranes</em> que conserva la parte residencial o <i>pars urbana</i> y la de servicios o <i>pars rustica</i>
                 </p>
-                <img src="../imagenes/veranes.jfif" alt="museo de veranes" title="villa romana de veranes">
+                <img src="../imagenes/veranes.jfif" alt="museo de veranes" title="villa romana de veranes" id="veranes">
             </section>
             <section id="moderna">
                 <h1>Edad media y moderna</h1>
@@ -545,7 +550,7 @@
                     La dominación duró aproximadamente desde el año 713 hasta el 718 o 722. 
                     En este último año se produjo la victoria de los dirigentes asturianos en <strong>la batalla de Covadonga</strong>, iniciada en el 718 y liderada por <a href="https://es.wikipedia.org/wiki/Don_Pelayo">Pelayo</a> quien se convertirá en rey del <strong>reino de Asturias</strong>. 
                 </p>
-                <img src="../imagenes/gijonmedieval.jpg" alt="primera representacion de gijon" title="'Vista del puerto de Gijon' de Pedro Teixeira, 1634">
+                <img src="../imagenes/gijonmedieval.jpg" alt="primera representacion de gijon" title="'Vista del puerto de Gijon' de Pedro Teixeira, 1634" id="representacion">
                 <p>
                     En el año 1147 un gran grupo de <strong>guerreros cruzados</strong> hicieron una parada en el puerto de Gijón. 
                     Habían salido de <em>Dartmouth</em> con el objetivo de conquistar <a href="https://es.wikipedia.org/wiki/Tierra_Santa">Tierra Santa</a> y fueron sorprendidos por un temporal en el mar Cantábrico. 
@@ -560,7 +565,7 @@
                     Un ejemplo notable de estas últimas construcciones es el desaparecido castillo de Curiel, que servía para controlar el paso desde el centro de la región a la villa gijonesa. 
                     Aún hoy se conservan vestigios de esta época, destacando la torre de la <strong>familia Valdés</strong> —conocida popularmente como el <i>Turruxón de Trubia</i>— y <strong>las iglesias de San Miguel de Dueñas</strong> en Bernueces y de <strong>San Juan Bautista</strong> en Cenero.
                 </p>
-                <img src="../imagenes/torrevaldes.jfif" alt="torre de los valdes" title="torre de los valdes">
+                <img src="../imagenes/torrevaldes.jfif" alt="torre de los valdes" title="torre de los valdes" id="valdes">
                 <p>
                     No fue hasta los siglos xv y xvi cuando Gijón empezó a desarrollarse de nuevo. 
                     Esto es debido a las mejoras realizadas en su puerto, donde se construyó una dársena que incrementó el tráfico de pesca y el comercio de subsistencia.
@@ -572,7 +577,7 @@
                     Gracias a ello, a la mejora de las comunicaciones con la Meseta y a la creación del <strong>Instituto Asturiano</strong>, durante el siglo xviii Gijón alcanzó una población muy próxima a los 5500 habitantes. 
                     En esta época la figura de <a href="https://es.wikipedia.org/wiki/Gaspar_Melchor_de_Jovellanos">Gaspar Melchor de Jovellanos</a> jugó un papel clave, pues aparte de promover la creación del instituto y otras obras, fue quien marcó las líneas de expansión de la ciudad en su <em>«Plan de Mejoras»</em>, pionero de los planes de ensanche 
                 </p>
-                <img src="../imagenes/jovellanos.jfif" alt="cuadro de jovellanos" title="retrato de jovellanos hecho por goya">
+                <img src="../imagenes/jovellanos.jfif" alt="cuadro de jovellanos" title="retrato de jovellanos hecho por goya" id="jovellanos">
             </section>
             <section>
                 <h1>Edad contemporanea</h1>
@@ -593,7 +598,7 @@
                         Los elevados costes que generaba motivaron la búsqueda de otros medios de transporte para el carbón. 
                         Como resultado, en 1852 se inauguró el <a href="https://es.wikipedia.org/wiki/Ferrocarril_de_Langreo">Ferrocarril de Langreo</a> el primero en circular por Asturias 
                     </p>
-                    <img src="../imagenes/ferrocarrillangreo.jfif" alt="ferrocarril llendo por la via de langreo" title="la via de langreo">
+                    <img src="../imagenes/ferrocarrillangreo.jfif" alt="ferrocarril llendo por la via de langreo" title="la via de langreo" id="ferrolangreo">
                     <p>
                         Todo esto hizo de Gijón una villa industrial en la cual la burguesía desempeñó un papel muy importante en el desarrollo urbano, creándose nuevas calles y plazas bien a través de reformas interiores en el casco histórico, bien a través de planes de ensanche para promover la expansión de la ciudad. 
                         El <strong>proyecto de ensanche sobre el arenal de San Lorenzo</strong> se aprobó en 1867 y fue proyectado en terrenos en propiedad del <em>primer marqués de Casa Valdés</em>, al este de la villa. 
@@ -605,7 +610,7 @@
                         Aún siguen en pie la <em>plaza de toros de El Bibio</em> y <em>el teatro Dindurra</em>, actual teatro Jovellanos. 
                         Los arquitectos <strong>Miguel García de la Cruz</strong> y <strong>Manuel del Busto</strong> tuvieron una gran relevancia en cuanto a número de obras en la ciudad 
                     </p>
-                    <img src="../imagenes/teatrojovellanos.jfif" alt="imagenes del actual teatro jovellanos" title="actual teatro jovellanos">
+                    <img src="../imagenes/teatrojovellanos.jfif" alt="imagenes del actual teatro jovellanos" title="actual teatro jovellanos" id="teatro">
                     <p>
                         El urbanismo burgués contrastaba notablemente con las viviendas y condiciones de vida precarias de los más desfavorecidos dentro de la clase obrera. Un gran número de estas personas vivía en las conocidas como <i>«ciudadelas»</i>, grupos de pequeñas casas unifamiliares de muy baja calidad distribuidas en hileras opuestas y con servicios comunes a todas ellas. 
                         Estas se construían sin licencia municipal en el patio interior de las manzanas y se ocultaban tras otros edificios o al fondo de un callejón. 
@@ -641,7 +646,7 @@
                         Gijón se fortificó con refugios antiaéreos (la mayoría improvisados en sótanos aunque destaca el excavado en Cimadevilla) e incluso construyó un aeródromo en Las Mestas. 
                         Finalmente, la ocupación de la ciudad por las tropas franquistas tuvo lugar el 21 de octubre de 1937. 
                     </p>
-                    <img src="../imagenes/bombardeo.jfif" alt="bombardeo de gijon" title="plaza 6 de agosto en ruinas tras los bombardeos de gijon">
+                    <img src="../imagenes/bombardeo.jfif" alt="bombardeo de gijon" title="plaza 6 de agosto en ruinas tras los bombardeos de gijon" id="bomba">
                 </section>
                 <section id="franquismo">
                     <h1>Franquismo</h1>
@@ -653,7 +658,7 @@
                         Los barrios de <strong>El Llano</strong> y <strong>La Calzada</strong> fueron los de mayor crecimiento, siendo muy importante la llegada de inmigrantes desde <em>Extremadura, Andalucía y Castilla</em> entre otras regiones. 
                         Como resultado, en la década de 1950 y sobre todo en la de 1960 la ciudad experimentó su mayor desarrollo, superando por primera vez en población a <strong>Oviedo</strong>. 
                     </p>
-                    <img src="../imagenes/mil quinientas.jfif" alt="poligono de las mil quinientas" title="como luce el poligono de las mil quinientas actualmente">
+                    <img src="../imagenes/mil quinientas.jfif" alt="poligono de las mil quinientas" title="como luce el poligono de las mil quinientas actualmente" id="milquinientas">
                     <p>
                         Es también en esta época cuando se creó la <a href="https://es.wikipedia.org/wiki/Feria_Internacional_de_Muestras_de_Asturias">Feria Internacional de Muestras de Asturias</a> que en 1963 se convirtió en el escaparate de la técnica, la industria, la ingeniería, el turismo y el comercio de la región. 
                         Desde 1966 se celebra en el <strong>Recinto Ferial Luis Adaro</strong>. 
@@ -688,7 +693,7 @@
                         La desaparición de industrias portuarias dejó espacio para nuevas playas (<stroong>Poniente, El Arbeyal</stroong>) así como al <em>Puerto Deportivo</em>. 
                         El cierre de <strong>la Fábrica de Moreda</strong> originó un barrio entero, el de Moreda, dignificado por el desvío de las vías de ferrocarril desde la estación del Norte hasta la <strong>estación de Gijón-Jovellanos</strong> (1990).
                     </p>
-                    <img src="../imagenes/elogio del horizonte.jfif" alt="elgio del horizonte, cimadevilla" title="escultura del elogio del horizonte, localizada en cimadevilla">
+                    <img src="../imagenes/elogio del horizonte.jfif" alt="elgio del horizonte, cimadevilla" title="escultura del elogio del horizonte, localizada en cimadevilla" id="elogio">
                     <p>
                         La desindustrialización continuó en los 2000 afectando a las industrias medianas de la ciudad, como la <strong>mina de La Camocha</strong>, cerrada en 2008. 
                         En esta época se crearon asimismo nuevos barrios como<em> Montevil, Viesques y Nuevo Roces</em>. 
@@ -714,7 +719,7 @@
                 Desde la instauración de la democracia en la Transición, 
                 la fuerza política que más tiempo ha gobernado en Gijón ha sido el <strong>PSOE</strong>, que gobernó de forma ininterrumpida durante 32 años, entre 1979 y 2011. 
             </p>
-            <table>
+            <table id="tablalcaldes">
                 <caption>Alcaldes desde las elecciones de 1979</caption>
                 <tr>
                     <th>Periodo</th>
@@ -807,7 +812,7 @@
             <p>
                 La siguiente etapa de gran crecimiento económico de Gijón se produjo a finales de la década de 1960, debido a la construcción de la factoría de <strong>Uninsa (Ensidesa)</strong> y a la actividad del puerto y de los astilleros.
             </p>
-            <img src="../imagenes/ensidesa.jfif" alt="foto de la factoria de ensidesa" title="factoria de ensidesa">
+            <img src="../imagenes/ensidesa.jfif" alt="foto de la factoria de ensidesa" title="factoria de ensidesa" id="ensidesa">
             <p>
                 Tras una dura crisis y reconversión en los años ochenta, en la actualidad, el sector terciario es el más importante de la economía gijonesa, seguido del sector secundario (industrias siderúrgicas y metálicas). El peso del sector primario en la economía del municipio es prácticamente irrelevante.
             </p>
@@ -864,7 +869,7 @@
                     <p>
                         En Gijón se sitúan centros docentes de dos universidades, la <em>Universidad de Oviedo</em> y la <em>Universidad Nacional de Educación a Distancia</em>. 
                     </p>
-                    <img src="../imagenes/campus.jfif" alt="campus de gijon" title="vista aerea del campus de gijon">
+                    <img src="../imagenes/campus.jfif" alt="campus de gijon" title="vista aerea del campus de gijon" id="campus">
                     <section id="oviedo">
                         <h1>Universidad de Oviedo</h1>
                         <p>
@@ -911,12 +916,12 @@
             <hr>
             <section id="civil">
                 <h1>Arquitectura civil</h1>
-                <img src="../imagenes/revillagigedo.jfif" alt="palacio de revillagigedo" title="el palacio de revillagigedo">
+                <img src="../imagenes/revillagigedo.jfif" alt="palacio de revillagigedo" title="el palacio de revillagigedo" id="palacio">
                 <p>
                     Gijón cuenta con una amplia arquitectura civil, destacando la <strong>Universidad Laboral de Gijón</strong> (1955) como su edificio más representativo.
                     En su extenso catálogo de patrimonio urbanístico podemos encontrar edificios como el <strong>palacio de Revillagigedo</strong>, del siglo xviii, <strong>la Casa Consistorial</strong> (Coello, 1865), la <strong>plaza de toros de El Bibio</strong> (1888), el <strong>Banco de Gijón</strong> (Bellido, 1902), la <strong>Escuela de Comercio</strong> (Del Busto, 1915), <strong>Solavieya</strong> (1918), <strong>La Gota Leche</strong> (De la Cruz, 1925), <strong>La Escalerona</strong> (Fernández-Omaña, 1933), la <strong>Casa Rosada</strong> (1940), la <strong>Casa Sindical</strong> (Somolinos, 1966) o el <strong>Palacio de Deportes</strong> (Arroyo, 1992) 
                 </p>
-                <img src="../imagenes/escalerona.jfif" alt="foto de la escalerona" title="la escalerona">
+                <img src="../imagenes/escalerona.jfif" alt="foto de la escalerona" title="la escalerona" id="escalerona">
             </section>
             <section id="religiosa">
                 <h1>Arquitectura religiosa</h1>
@@ -924,7 +929,7 @@
                     En Gijón existen varias iglesias, destacando las tres <em>«históricas»</em>: <strong>San Pedro</strong> (Somolinos, 1955), <strong>San José</strong> (Bustelo, 1954) y <strong>San Lorenzo</strong> (Bellido, 1901). 
                     Asimismo, hay una basílica construida en 1918 y apodada <strong>La Iglesiona</strong> y un santuario, el de <strong>Nuestra Señora de Contrueces</strong> (1660) 
                 </p>
-                <img src="../imagenes/san pedro.jfif" alt="iglesia de san pedro" title="la iglesia de san pedro de noche">
+                <img src="../imagenes/san pedro.jfif" alt="iglesia de san pedro" title="la iglesia de san pedro de noche" id="sanpedro">
             </section>
             <section id="natural">
                 <h1>Espacios naturales</h1>
@@ -936,7 +941,7 @@
                     <li>Monte Deva</li>
                     <li>Playa de San Lorenzo, playa de Poniente, playa del Arbeyal, Mayanes, Cervigón, Peñarrubia, Serín, Estaño y La Ñora</li>
                 </ul>
-                <img src="../imagenes/deva.jfif" alt="iumagen del area recreativa del monte deva" title="area recreativa del monte deva">
+                <img src="../imagenes/deva.jfif" alt="iumagen del area recreativa del monte deva" title="area recreativa del monte deva" id="deva">
             </section>
         </section>
         <section id="cultura">
@@ -973,22 +978,22 @@
                 <h1>Museos</h1>
                 <p>En Gijón existen gran número de museos:</p>
                 <ul>
-                    <img src="../imagenes/ferrocarril.jfif" alt="museo dsel ferrocarril" title="museo del ferrocarril por dentro">
+                    <img src="../imagenes/ferrocarril.jfif" alt="museo dsel ferrocarril" title="museo del ferrocarril por dentro" id="museoferro">
                     <li>
                         <strong>Historia</strong>: En Gijón existen varios museos sobre su propia historia como las <em>Termas romanas de Campo Valdés</em>, la <em>Villa romana de Veranes</em>, el <em>Parque arqueológico de la Campa Torres</em> y la <em>Ciudadela de Celestino Solar</em>; 
                         así como otros dos sobre la historia de Asturias: 
                         el <em>Museo del Ferrocarril de Asturias</em> y el <em>Museo del Pueblo de Asturias</em>, que incluye el Museo de la Gaita.
                     </li>
-                    <img src="../imagenes/pueblo de asturias.jfif" alt="pueblo de asturias" title="museo del pueblo de asturias">
+                    <img src="../imagenes/pueblo de asturias.jfif" alt="pueblo de asturias" title="museo del pueblo de asturias" id="museopueblo">
                     <li>
                         <strong>Arte</strong>: Hay varios museos que exponen, principalmente, colecciones de un solo pintor: 
                         <em>Museo Barjola</em>, <em>Museo Nicanor Piñole</em> y <em>Museo Evaristo Valle</em> así como uno de arte contemporáneo, el centro <em>laboral de Arte y Creación Industrial</em> y otro más generalista, el <em>Museo Jovellanos</em>, cuyos grandes fondos serán expuestos en parte en el museo proyectado de Tabacalera, formando la mayor pinacoteca de la ciudad.
                     </li>
-                    <img src="../imagenes/nicanor.jfif" alt="museo nicanor piñole" title="museo nicanor piñole">
+                    <img src="../imagenes/nicanor.jfif" alt="museo nicanor piñole" title="museo nicanor piñole" id="nicanor">
                     <li>
                         <strong>Naturaleza</strong>: Destacan el <em>Jardín Botánico</em> y el <em>Acuario de Gijón</em>, orientados a la flora y fauna cantábrica.
                     </li>
-                    <img src="../imagenes/acuario.jfif" alt="acuario de gijon" title="el acuario de gijon">
+                    <img src="../imagenes/acuario.jfif" alt="acuario de gijon" title="el acuario de gijon" id="acuario">
                 </ul>
             </section>
             <section id="cine">
@@ -1001,13 +1006,13 @@
                     Y en 2009, la Laboral y sus alrededores se convertirían en Oxford para la película de <strong>Fernando González Molina</strong>, <em>Fuga de Cerebros</em>. 
                     En 2019 también se rodó en Gijón (concretamente en la Quinta Bauer en Somió, RCAR, calle Corrida y en el bar restaurante El Globo, entre otras localizaciones) la película <em>Si yo fuera rico</em> de <strong> Álvaro Fernández Armero</strong> para Mediaset y Telecinco. 
                 </p>
-                <img src="../imagenes/volver a empezar.jfif" alt="poster de la pelicula volver a empezar" title="la pelicula volver a empezar">
+                <img src="../imagenes/volver a empezar.jfif" alt="poster de la pelicula volver a empezar" title="la pelicula volver a empezar" id="pelicula">
                 <p>
                     Asimismo existen en la villa numerosos grupos tanto profesionales entre los que se cuentan a <em>Higiénico Papel, Teatro del Norte, Teatro Margen, Konjuro teatro... </em>
                     así como grupos amateur como <em>Atrebil, Compañía asturiana de comedias, Electra, G con G, La capacha, La Galerna, La Peseta, Rosario Trabanco, Telón de Fondo, Trama y Traslluz.</em>
                     Todos ellos tanto unos como otros conocidos fuera de los límites de la villa, como de la provincia asturiana, recibiendo premios y menciones. 
                 </p>
-                <img src="../imagenes/konjuro teatro.jfif" alt="cartel de una funcion de konjuro teatro" title="funcion de konjuro teatro">
+                <img src="../imagenes/konjuro teatro.jfif" alt="cartel de una funcion de konjuro teatro" title="funcion de konjuro teatro" id="konjuro">
                 <p>
                     Destacan los siguientes teatros: 
                 </p>
@@ -1033,14 +1038,14 @@
             </section>
             <section id="gastronomia">
                 <h1>Gastronomia</h1>
-                <img src="../imagenes/cachopo.jfif" alt="cachopo" title="cachopo">
+                <img src="../imagenes/cachopo.jfif" alt="cachopo" title="cachopo" id="cachopo">
                 <p>
                     Podemos destacar dentro de la comida clásica, como primeros, les fabes, las reinas en la cocina asturiana, ya sea en la conocidísima <strong>fabada asturiana con compango</strong> (chorizo, morcilla asturiana y lacón), como con almejas, centollo, con caza, etc y el <strong>pote asturiano</strong>. 
                     En los segundos, el puerto aporta sabrosos pescados y mariscos del Cantábrico con el que se realizan recetas tradicionales como la chopa a la sidra, <strong>besugo a la espalda</strong>, <strong>ventresca de bonito</strong> o los oricios, aunque también tienen su importancia los platos de carne de las parroquias del interior como la ternera o <em>el pitu de caleya</em>. 
                     Los postres típicos son el <strong>arroz con leche</strong>, tarta charlota, <strong>tarta gijonesa</strong>, biscuit Gijón, bombones de sidra. 
                     Debería resaltarse que las <em>«princesitas»</em> siguen realizándose de forma artesanal. 
                 </p>
-                <img src="../imagenes/fabada.jfif" alt="fabada asturiana" title="fabada asturiana">
+                <img src="../imagenes/fabada.jfif" alt="fabada asturiana" title="fabada asturiana" id="fabada">
             </section>
             <section id="deportes">
                 <h1>Deportes</h1>
@@ -1051,7 +1056,7 @@
                     Contó con un equipo de baloncesto, el <strong>Gijón Baloncesto</strong>, que estuvo en la liga ACB cuatro temporadas, tres de ellas consecutivas. 
                     En la actualidad sus principales equipos son el <strong>Círculo Gijón Baloncesto y Conocimiento</strong>, que milita en LEB PLATA, y el <strong>Gijón Basket</strong>, que milita en liga EBA. 
                 </p>
-                <img src="../imagenes/molinon.jfif" alt="estadio del molinon" title="el estadio del molinon">
+                <img src="../imagenes/molinon.jfif" alt="estadio del molinon" title="el estadio del molinon" id="molinon">
                 <p>
                     En rugby Gijón está representado por el <strong>Calzada Rugby Club</strong> -heredero del desaparecido <em>Club de Rugby Revillagigedo</em>, impulsado por el entrenador <em>Jaime Fernández Lastra</em>, el más antiguo de los clubes de rugby de Asturias, que jugó su partido inaugural en los Campos de Rugby de la Universidad Laboral contra el actual campeón de España el VRAC Quesos Entrepinares de Valladolid, heredero a su vez del equipo GF de Valladolid, el 24 de enero de 1965- y el <strong>Gijón Rugby Club</strong>- Universidad de Oviedo, 
                     heredero también de la <strong>Selección de Rugby del Real Sporting de Gijón</strong> que llegó a jugar en la División de Honor del Rugby Nacional en el año 1979 en el mítico desaparecido campo de Viesques en donde se enfrentó en partido amistoso a la selección absoluta de País de Gales en 1983, y en fútbol americano por <strong>los Gijón Mariners</strong>. 
