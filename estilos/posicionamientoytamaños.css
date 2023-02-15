@@ -1,7 +1,7 @@
 nav{
 float: left;
-position: fixed; top: 100px; left: 20px;
-
+position: fixed; top: 150px; left: 20px;
+padding-right: 5px;
 }
 aside{
     float: right;
@@ -18,6 +18,7 @@ aside{
     margin-top: 10px;
     border-bottom: none;
     border-right: none;
+    position: absolute; left: 1300px; top: 2870px; right: 50px;
 }
 #inicio{
     margin-left: 24%;
@@ -25,4 +26,26 @@ aside{
 #tablaorientacion{
     position: relative;
     left: 30%;
+}
+header{
+    font-size: 27px;
+    text-align: center;
+}
+#inicio h1{
+    font-size: 30px;
+    margin-left: 5px;
+}
+#tablaclima{
+    margin-left: 50px;
+}
+#inicio p{
+    margin: 10px;
+}
+#tablalcaldes{
+    position: relative;
+    left: 25%;
+    margin-top: 10px;
+}
+#formulario{
+    text-align: center;
 }

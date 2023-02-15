@@ -3,3 +3,22 @@ html{background-color: #ffffff;}
 h1{color: #f25157;}
 nav{background-color: #e9ebba;}
 aside{background-color: #d2dcd3;}
+header{
+    background-color: #fef2f2;
+}
+
+.temp1{background-color: #dcf0ff;}
+.temp2{background-color: #ffff99;}
+.temp3{background-color: #ff9900;}
+.temp4{background-color: #ff6400;}
+.temp5{background-color: #ff1400;}
+
+.precip1{background-color: #b0b0ff;}
+.precip2{background-color: #8282ff;}
+.precip3{background-color: #6666ff;}
+.precip4{background-color: #4646ff;}
+
+.dia1{background-color: #a0c8f0;}
+.dia2{background-color: #508cff;}
+
+.horasluz{background-color: #b3a973;}

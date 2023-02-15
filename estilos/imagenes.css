@@ -1,0 +1,163 @@
+#bandera, #escudo{
+    height: 200px;
+}
+#academia{
+    float: right;
+    margin-right: 10px;
+    border-style: solid;
+}
+#pelayo{
+    float: right;
+    height:200px;
+    margin: 10px;
+    margin-right: 20px;
+    border-style: solid;
+}
+#dolmen{
+    float: right;
+    margin-right: 20px;margin-left: 20px;
+    border-style: solid;
+}
+#castro{
+    float:left;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-style: solid;
+}
+#veranes{
+    float: right;
+    margin: 10px;
+    border-style: solid;
+}
+#representacion{
+    float: left;
+    margin: 15px;
+    height: 350px;
+    border-style: solid;
+}
+#valdes{
+    float: right;
+    margin: 10px;
+    border-style: solid;
+}
+#jovellanos{
+    float: right;
+    margin: 15px;
+    position: relative;top: -30px;
+    border-style: solid;
+}
+#ferrolangreo{
+    float: right;
+    margin: 15px;
+    position: relative;top: -30px;
+    border-style: solid;
+}
+#teatro{
+    float: left;
+    margin: 15px;
+    border-style: solid;
+}
+#bomba{
+    float: right;
+    height: 250px;
+    margin: 15px;
+    border: solid;
+}
+#milquinientas{
+    float: left;
+    margin: 10px;
+    border-style: solid;
+}
+#elogio{
+    float: right;
+    margin: 15px;
+    border-style: solid;
+}
+#ensidesa{
+    float: left;
+    margin: 15px;
+    border-style: solid;
+}
+#campus{
+    float: right;
+    margin: 20px;
+    height: 200px;
+    border-style: solid;
+    position: relative;top: 120px;
+}
+#palacio{
+    float: left;
+    margin-left: 15px;margin-right: 15px;
+    position: relative;top: -15px;
+    border-style: solid;
+}
+#escalerona{
+    float: right;
+    margin: 15px;
+    position: relative;top: -30px;
+    border-style: solid;
+}
+#sanpedro{
+    position: relative;left: 30%;
+    height: 300px;
+    margin: 15px;
+    border-style: solid;
+}
+#deva{
+    float: right;
+    position: relative; top: -60px;left: -250px;
+    height: 205px;
+    border-style: solid;
+}
+#museoferro, #museopueblo{
+    height: 200px;
+    border-style: solid;
+}
+#imagenes{
+    position: relative;left: 25%;
+    margin: 30px;
+}
+#nicanor{
+    position: relative;left: 40%;
+    margin: 20px;
+    height: 200px;
+    border-style: solid;
+}
+#acuario{
+    position: relative; left: 40%;
+    border-style: solid;
+    margin: 20px;
+}
+#pelicula{
+    float: left;
+    margin: 15px; 
+    position: relative;top: -15px;   
+    border-style: solid;
+}
+
+#konjuro{
+    float: right;
+    margin: 15px;
+    position: relative;top: -25px;
+    border-style: solid;
+}
+#cachopo{
+    float: left;
+    position: relative;top: -10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-style: solid;
+}
+#fabada{
+    float: right;
+    position: relative;top: -10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-style: solid;
+}
+#molinon{
+    float: right;
+    margin: 20px;
+    height: 200px;
+    border-style: solid;
+}
