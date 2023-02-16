@@ -62,3 +62,6 @@ header{
     font-size: 30px;
     margin-left: 5px;
 }
+#lista2{
+    list-style-type: none;
+}
