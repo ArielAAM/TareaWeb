@@ -161,3 +161,24 @@
     height: 200px;
     border-style: solid;
 }
+#parqueCampa{
+    float:right;
+    margin: 10px;
+    border-style: solid;
+    position: relative;top: -20px;
+}
+#aras{
+    float: right;
+    margin: 10px;
+    border: solid;
+}
+#cabañas{
+    float: left;
+    margin: 10px;
+    border-style: solid;
+}
+#ceramica{
+    float: right;
+    margin: 10px;
+    border-style: solid;
+}
